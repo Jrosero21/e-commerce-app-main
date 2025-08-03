@@ -1,0 +1,22 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react'
+
+const Rating = ({ rating }) => {
+  return (
+    <div className="book__ratings">
+        <div className="book__ratings">
+        {new Array(Math.floor(rating)).fill(0).map((_, index) => (
+          <FontAwesomeIcon icon="fa-solid fa-star" style={{ color: "#FFD43B" }} key={index} />
+        ))}
+        {Number.isInteger(rating) ? (
+          ""
+        ) : (
+          <FontAwesomeIcon icon="fa-solid fa-star-half-stroke" style={{ color: "#FFD43B" }} />
+        )}
+      </div>
+      
+    </div>
+  )
+}
+
+export default Rating
