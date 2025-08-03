@@ -2,7 +2,7 @@
   "name": "library-react-tutorial",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Jrosero21.github.io/e-commerce-app",
+  "homepage": ".",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.0.0",
     "@fortawesome/free-brands-svg-icons": "^7.0.0",
